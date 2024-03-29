@@ -1,4 +1,4 @@
-# Iagon Compute CLI
+# Iagon Compute CLI (Test Node)
 Iagon Compute Node CLI is a CLI application which allows users to share their computational power on the Iagon network to earn rewards.
 
 ## Introduction
