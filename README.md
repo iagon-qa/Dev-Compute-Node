@@ -4,14 +4,14 @@ Iagon Compute Node CLI is a CLI application which allows users to share their co
 
 ## Introduction
 
-This document provides step-by-step instructions to help you install and set up Iagon Compute Node CLI on your system. Currently only Linux based OS are supported.
+This document provides step-by-step instructions to help you install and set up Iagon Compute Node CLI on your system. Currently only Linux based OS (Ubuntu 23) are supported.
 
 ## Installation
 
 You can install the Officaial Compute Node CLI binary by using our install.sh script, which you can get from [Iagon's Github Release page](https://github.com/Iagonorg/Computing-CLI/releases).
 
 ```bash
-wget -qO- https://github.com/Iagonorg/Iagon-Compute-Node/releases/download/v0.2.0/install.sh | sudo bash
+wget -qO- https://github.com/Iagonorg/Iagon-Compute-Node/releases/download/v0.3.0/install.sh | sudo bash
 ```
 
 The script installs and configures necessary 3rd party trusted packages as dependencies, which includes:
@@ -30,7 +30,7 @@ Enable kvm virtualization support on your bios. Consult your device manufacturer
 
 #### port forwarding
 
-Enable port forwarding for the compute node binary on a static ip. These ports are to be provided during registration process and should be accessible from the internet.
+Enable port forwarding for the compute node binary on a static ip. The port 443 should be accessible from the internet.
 
 ## Usage
 
@@ -38,7 +38,7 @@ Once the binary and the necessary dependencies are installed, you can use the Co
 
 ### Commands
 
-Execute the following commands, as: `./iag-compute-cli some-command`
+Execute the following commands, as: `iag-compute-cli some-command`
 
 1. **start**
 
