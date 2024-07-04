@@ -8,7 +8,7 @@ This document provides step-by-step instructions to help you install and set up 
 
 ## Installation
 
-You can install the Official Compute Node CLI binary by using our install.sh script, which you can get from [Iagon's Github Release page](https://github.com/Iagonorg/Testnet-Compute-Node/releases).
+You can install the Official Compute Node CLI binary by using our install.sh script, which you can get from [Iagon's Github Release page](https://github.com/iagon-qa/Dev-Compute-Node/releases).
 
 ```bash
 wget -qO- https://github.com/iagon-qa/Dev-Compute-Node/releases/download/v0.4.0/install.sh | sudo bash
@@ -22,7 +22,7 @@ The script installs and configures necessary 3rd party trusted packages as depen
 
 ## Update from previous versions
 
-You can update your compute node binary to latest version by using our update.sh script, which you can get from [Iagon's Github Release page](https://github.com/Iagonorg/Testnet-Compute-Node/releases).
+You can update your compute node binary to latest version by using our update.sh script, which you can get from [Iagon's Github Release page](https://github.com/iagon-qa/Dev-Compute-Node/releases).
 
 ```bash
 wget -qO- https://github.com/iagon-qa/Dev-Compute-Node/releases/download/v0.4.0/update.sh | sudo bash
