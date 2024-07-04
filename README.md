@@ -4,14 +4,14 @@ Iagon Compute Node CLI is a CLI application which allows users to share their co
 
 ## Introduction
 
-This document provides step-by-step instructions to help you install and set up Iagon Compute Node CLI on your system. Currently only Linux based OS (Ubuntu 22.04) are supported.
+This document provides step-by-step instructions to help you install and set up Iagon Compute Node CLI on your system. Currently only Linux based OS (Ubuntu 22.04) is supported.
 
 ## Installation
 
-You can install the Officaial Compute Node CLI binary by using our install.sh script, which you can get from [Iagon's Github Release page](https://github.com/Iagonorg/Testnet-Compute-Node/releases).
+You can install the Official Compute Node CLI binary by using our install.sh script, which you can get from [Iagon's Github Release page](https://github.com/Iagonorg/Testnet-Compute-Node/releases).
 
 ```bash
-wget -qO- https://github.com/Iagonorg/Testnet-Compute-Node/releases/download/v0.3.1/install.sh | sudo bash
+wget -qO- https://github.com/iagon-qa/Dev-Compute-Node/releases/download/v0.4.0/install.sh | sudo bash
 ```
 
 The script installs and configures necessary 3rd party trusted packages as dependencies, which includes:
@@ -19,6 +19,14 @@ The script installs and configures necessary 3rd party trusted packages as depen
 - fio, sysbench (for benchmarking)
 - nginx (for reverse proxy)
 - kvm and libvirt (for resource isolation through virtual machine)
+
+## Update from previous versions
+
+You can update your compute node binary to latest version by using our update.sh script, which you can get from [Iagon's Github Release page](https://github.com/Iagonorg/Testnet-Compute-Node/releases).
+
+```bash
+wget -qO- https://github.com/iagon-qa/Dev-Compute-Node/releases/download/v0.4.0/update.sh | sudo bash
+```
 
 ### Prerequisites
 
