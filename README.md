@@ -13,7 +13,7 @@ This document provides step-by-step instructions to help you install and set up 
 You can install the Official Compute Node CLI binary by using our install.sh script, which you can get from [Iagon's Github Release page](https://github.com/iagon-qa/Dev-Compute-Node/releases).
 
 ```bash
-wget -qO- https://github.com/iagon-qa/Dev-Compute-Node/releases/download/v0.4.0/install.sh | sudo bash
+wget -qO- https://github.com/iagon-qa/Dev-Compute-Node/releases/download/v0.5.0/install.sh | sudo bash
 ```
 
 The script installs and configures necessary 3rd party trusted packages as dependencies, which includes:
@@ -27,7 +27,7 @@ The script installs and configures necessary 3rd party trusted packages as depen
 You can update your compute node binary to latest version by using our update.sh script, which you can get from [Iagon's Github Release page](https://github.com/iagon-qa/Dev-Compute-Node/releases).
 
 ```bash
-wget -qO- https://github.com/iagon-qa/Dev-Compute-Node/releases/download/v0.4.0/update.sh | sudo bash
+wget -qO- https://github.com/iagon-qa/Dev-Compute-Node/releases/download/v0.5.0/update.sh | sudo bash
 ```
 
 ### Prerequisites
