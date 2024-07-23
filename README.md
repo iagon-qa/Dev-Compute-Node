@@ -1,4 +1,6 @@
 # Iagon Compute CLI
+## Note
+Please use url https://sandbox.iagon.eu:8080/ or https://featurebranch.iagon.io:8080/to use this. If one is down, use another.
 
 Iagon Compute Node CLI is a CLI application which allows users to share their computational power on the Iagon network to earn rewards.
 
